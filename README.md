@@ -4,7 +4,7 @@ Banyan Ledger provides the easiest, lowest-risk gateway to experimenting with di
 
 Simple ledger platform based on Python3.6 , Django2.3 and django-rest-framework
 
-# **attractive function**
+# **Attractive function**
 
 - built connection with HPB(High Performance Blockchain)
 
