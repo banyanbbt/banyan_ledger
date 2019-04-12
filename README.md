@@ -24,7 +24,8 @@ You also need to modify the configuration abut your environment.For example `DAT
 
 # **Running**
 
-####Modify the database settings,As shown below:
+#### Modify the database settings,As shown below:
+
 ```python
 DATABASES = {
     'default': {
