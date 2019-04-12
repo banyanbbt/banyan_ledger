@@ -80,7 +80,7 @@ def get_json():
     for temp in account_list:
         request_json = {
             "txnCode": settings.HPB_REQUEST_TXNCODE,
-            "txnNo": settings.HPB_TXNNO + datetime.datetime.now().strftime('%Y%m%d%M%S'),
+            "txnNo": settings.HPB_TXNNO + datetime.datetime.now().strftime('%Y%m%d%H%M%S'),
             "accessToken": access_token,
             "tradeDate": now_date,
             "licenseId": settings.HPB_LICENSE_ID,
